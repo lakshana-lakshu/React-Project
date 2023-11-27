@@ -1,0 +1,29 @@
+html,
+// .login-section {
+//   background-image: url("C:\Users\Rakshitha\Downloads\donation-site-stripe-reactjs-main\donationapp\src\images\donate.jpg");
+//   background-size: cover;
+//   background-position: center;
+//   /* Add any other styling you need */
+// }
+body {
+  height: 100%;
+}
+main {
+  position: relative;
+  overflow: hidden;
+}
+
+.open-nav {
+  @media (max-width: 1023px) {
+    animation: nav-open 0.2s linear;
+  }
+}
+@keyframes nav-open {
+  from {
+    margin-bottom: -50vh;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
